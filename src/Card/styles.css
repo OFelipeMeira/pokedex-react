@@ -1,0 +1,91 @@
+:root {
+    --mainColor: #000
+}
+
+
+.pokeCard {
+    border: 1px solid #000;
+    margin: 2%;
+    background-color: var(--mainColor);
+
+}
+
+img{
+    filter: drop-shadow(3px 3px #000);
+}
+
+.types {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+
+h2{
+    border-radius: 1em;
+    border: 1px solid #000;
+    width:4em ;
+    
+    
+}
+
+
+
+/*------- Types -------*/
+.fighting {
+    --mainColor: #ce4069dd
+}
+
+.psychic {
+    --mainColor: #f97176dd
+}
+
+.poison {
+    --mainColor: #ab6ac8dd
+}
+
+.dragon {
+    --mainColor: #0a6dc4dd
+}
+.ghost {
+    --mainColor: #5269acdd
+}
+.dark {
+    --mainColor: #5a5366dd
+}
+.ground {
+    --mainColor: #d97746dd
+}
+.fire {
+    --mainColor: #ff9c54dd
+}
+.fairy {
+    --mainColor: #ec8fe6dd
+}
+.water {
+    --mainColor: #4d90d5dd
+}
+.flying {
+    --mainColor: #8fa8dddd
+}
+.normal {
+    --mainColor: #9099a1dd
+}
+.rock {
+    --mainColor: #c7b78bdd
+}
+.electric {
+    --mainColor: #f3d23bdd
+}
+.bug {
+    --mainColor: #90c12cdd
+}
+.grass {
+    --mainColor: #63bb5bdd
+}
+.ice {
+    --mainColor: #74cec0dd
+}
+.steel {
+    --mainColor: #5a8ea1dd
+}
