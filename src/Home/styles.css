@@ -1,10 +1,11 @@
 .pokeList{
     background-color: rgb(240, 240, 240);
 
-    width: 90vw;
+    width: 95vw;
     margin: auto;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    /* grid-template-columns: 20% 20% 20% 20% 20%; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: space-evenly;
 
 }

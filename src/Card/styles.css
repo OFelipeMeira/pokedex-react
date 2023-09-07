@@ -2,12 +2,17 @@
     --mainColor: #000
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 
 .pokeCard {
     border: 1px solid #000;
     margin: 2%;
     background-color: var(--mainColor);
-
+    border-radius: 2em;
 }
 
 img{
@@ -17,7 +22,7 @@ img{
 .types {
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 
@@ -25,8 +30,16 @@ h2{
     border-radius: 1em;
     border: 1px solid #000;
     width:4em ;
-    
-    
+    box-shadow: 1px -1px 3px #Fff;
+    padding: 0.2em; 
+    background-color: var(--mainColor);
+    margin-right: 0.5em;
+    margin: 0.5em;
+}
+
+h3 {
+    margin-left: 0.5em;
+    font-size: 1.5vw;
 }
 
 
@@ -35,15 +48,12 @@ h2{
 .fighting {
     --mainColor: #ce4069dd
 }
-
 .psychic {
     --mainColor: #f97176dd
 }
-
 .poison {
     --mainColor: #ab6ac8dd
 }
-
 .dragon {
     --mainColor: #0a6dc4dd
 }

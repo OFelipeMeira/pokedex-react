@@ -8,16 +8,11 @@ export default function Home() {
     const [data, setData] = useState([])
 
     const getAllData = async () => {
-        for (let i = 1; i <= 151; i++) {
+        for (let i = 1; i <= 49; i++) {
             let endpoint = `https://pokeapi.co/api/v2/pokemon/${i}`
             const resp = await axios.get(endpoint)
-            const colorUrl = await axios.get(resp.data.species.url)
-            console.log(resp)
-            setData(data =>[...data, resp.data])
-            
-            //console.log(resp.data)
+            setData(data => [...data, resp.data])
         }
-
     }
 
     useEffect(() => {
