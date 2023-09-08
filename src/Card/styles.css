@@ -13,10 +13,14 @@
     margin: 2%;
     background-color: var(--mainColor);
     border-radius: 2em;
+
+    
+    transition: ease-in-out  2s;
 }
 
-img{
+.pokeCard img{
     filter: drop-shadow(3px 3px #000);
+    width: 10vw;
 }
 
 .types {
@@ -26,7 +30,7 @@ img{
 }
 
 
-h2{
+.types h2{
     border-radius: 1em;
     border: 1px solid #000;
     width:4em ;

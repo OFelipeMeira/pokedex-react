@@ -1,0 +1,30 @@
+.container {
+    flex-direction: column;
+    height: 100vh;
+    position: sticky;
+    background-color: #f0f0f0;
+    top: 0;
+    width: 30vw;
+
+}
+
+.stats h1 {
+    font-size: 0.5vw;
+}
+
+.imgs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+}
+.imgs img{
+    width: 80%;
+}
+
+.test {
+    border: 1px solid #000;
+    margin: auto;
+    border-radius: 2em;
+    padding: 2%;
+}
